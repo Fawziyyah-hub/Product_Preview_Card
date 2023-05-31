@@ -1,0 +1,92 @@
+body{
+    background-color: hsl(30, 38%, 92%);
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    display: grid;
+    font-family: [Monserrat];
+}
+
+main{
+    max-width: 375px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.perf{
+    width: 337px;
+    border-radius: 15px 15px 0px 0px ;
+}
+
+.article{
+    background-color: hsl(0, 0%, 100%);
+    width: 337px;
+    height: 62vh;
+    border-radius: 0px 0px 15px 15px;
+
+}
+
+.para{
+    margin-left: 20px;
+    color: hsl(228, 12%, 48%);
+    letter-spacing: 5px;
+}
+
+.one{
+    margin-left: 20px;
+    color:hsl(212, 21%, 14%) ;
+    width: 55%;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.sec{
+   color: hsl(228, 12%, 48%); 
+   margin-left: 20px;
+   width: 79%;
+   font-family: 'Times New Roman', Times, serif;
+   line-height: 4vh;
+}
+
+.two{
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+h2{
+    color: hsl(158, 36%, 37%);
+    left: 6%;
+    font-size: 35px;
+    position: relative;
+    bottom:18px;
+}
+
+del{
+    right: 269%;
+    color: hsl(228, 12%, 48%);
+    position: relative;
+    top: 8%;
+}
+
+button{
+    background-color: hsl(158, 36%, 37%);
+    border: none;
+    height: 7vh;
+    width: 80%;
+    margin: 10px;
+    position: relative;
+    bottom: 34px;
+    left: 6%;
+    color: white;
+    border-radius: 6px;
+    font-weight: 500;
+    cursor: pointer;
+   
+}
+
+button:hover{
+    background-color: hsl(158, 48%, 17%);
+}
